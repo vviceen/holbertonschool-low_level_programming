@@ -16,7 +16,7 @@ int main(void)
 
 	printf("Size of char: %zu byte\n", sizeof(caracter));
 	printf("Size of int: %zu bytes\n", sizeof(entero));
-	printf("Size of long int: %zu bytes\n"), sizeof(longint)
+	printf("Size of long int: %zu bytes\n"), sizeof(longint);
 	printf("Size of long long int: %zu bytes\n", sizeof(longie));
 	printf("Size of float: %zu bytes\n", sizeof(floaty));
 	
