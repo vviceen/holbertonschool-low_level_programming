@@ -1,0 +1,22 @@
+#include <stdio.h>
+/**
+ * main - print alphabet in lowercase with a control structure
+ *
+ * Return: 0
+ *
+ */
+
+int main(void)
+{
+	char n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		if (n != 'q' && n != 'e')
+		{
+			putchar (n);
+		}
+	}
+	putchar ('\n');
+	return (0);
+}
