@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - print all possible combinations of single-digit numbers with a control structure
+ * main - print all possible combinations of single-digit
+ * numbers with a control structure
  *
  * Return: 0
  *
