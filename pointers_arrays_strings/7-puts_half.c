@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_half - do the thing 
+ * puts_half - do the thing
  * @str: string
  */
 
