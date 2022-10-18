@@ -11,11 +11,11 @@ int aux(int n, int i)
 	{
 		return (i);
 	}
-	return (aux(n, i + 1));
 	if (i * i > n)
 	{
 		return (-1);
 	}
+	return (aux(n, i + 1));
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number.
@@ -29,5 +29,4 @@ int _sqrt_recursion(int n)
 		return (0);
 	}
 	return(aux(n, 0));
-	
 }
