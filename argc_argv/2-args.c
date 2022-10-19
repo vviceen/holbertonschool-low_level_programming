@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 {
 	for (; *argv; argv++)
 	{
-		printf("%s\n", argv);
+		printf("%s\n", *argv);
 	}
 	exit(EXIT_SUCCESS);
 }
