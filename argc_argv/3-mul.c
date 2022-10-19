@@ -11,14 +11,14 @@ int main(int argc, char **argv)
 {
 	int num1, num2, rslt;
 
-	if (arcg != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
-		exit (EXIT_FAILURE);
+		exit(EXIT_FAILURE);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
-	rslt= num1 * num2;
+	rslt = num1 * num2;
 	printf("%d\n", rslt);
-	exit (EXIT_SUCCESS);
+	exit(EXIT_SUCCESS);
 }
