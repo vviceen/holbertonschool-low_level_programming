@@ -13,7 +13,7 @@ char *string_concat(char *s1, char *s2, unsigned int n)
 	int l;
 	int j;
 	int i;
-	int k;
+	unsigned int k;
 
 	if (s1 == NULL)
 	{
