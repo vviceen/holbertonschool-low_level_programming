@@ -39,6 +39,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptr[i] = s2[k];
 		i++;
 	}
-	ptr[i] = NULL
+	ptr[i] = '\0';
 	return (ptr);
 }
