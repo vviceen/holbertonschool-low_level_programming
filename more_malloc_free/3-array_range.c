@@ -1,30 +1,31 @@
 #include "main.h"
 /**
- * *array_range - creates an array of integers.
- * @min: all the values from min.
- * @max: all the vales from max.
- * Return: fall NULL, successful ptr.
+ * array_range - function that creates an array of integers
+ * @min: all the values from min
+ * @max: all the values from max
+ * Return: fail NULL, successful point
  */
 int *array_range(int min, int max)
 {
-	int *ptr = NULL;
-	int i;
-	int n = (max - min + 1);
+	int *point = NULL;
+	int n = 0;
+	int i = 0;
 
 	if (min > max)
 	{
-		return (ptr);
+		return (NULL);
 	}
-	ptr = malloc(n);
-	if (!ptr)
+	point = malloc(sizeof(int) * (max - min + 1));
+	if (point == NULL)
 	{
-		return (ptr);
+		return (NULL);
 	}
-	for (i = 0; i < n; i++)
+	n = (max - min + 1);
+
+	for (i = 0 ; i < n ; i++)
 	{
-		ptr[i] = min;
+		point[i] = min;
 		min++;
 	}
-	return (ptr);
+	return (point);
 }
-
