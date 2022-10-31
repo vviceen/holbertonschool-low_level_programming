@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
 /**
  * struct dog - the structure that has the data of the dog.
  * @name: name the dog.
