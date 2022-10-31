@@ -30,6 +30,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(d);
 		return (NULL);
 	}
-	d->owner = strcpy(d->owner, owner;
+	d->owner = strcpy(d->owner, owner);
 	return (d);
 }
