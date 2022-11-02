@@ -14,7 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...);
 
 /*prototypes tas 3*/
 void print_all(const char * const format, ...);
-
+/**
+ * struct formats - function
+ */
 typedef struct formats
 {
 	char c;
