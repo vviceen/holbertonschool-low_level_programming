@@ -1,5 +1,4 @@
 #include "lists.h"
-#include "5-get_dnodeint.c"
 /**
  * insert_dnodeint_at_index - insert node at given position
  * @h: head of the list
