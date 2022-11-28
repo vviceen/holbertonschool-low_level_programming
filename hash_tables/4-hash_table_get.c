@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+#include "2-key_index.c"
 /**
  * hash_table_get - function that retrieves a value associated with a key
  * @ht: hash table
