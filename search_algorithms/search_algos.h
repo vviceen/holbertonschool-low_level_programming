@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SEARCHALGOS_H
+#define SEARCHALGOS_H
 
 #include <unistd.h>
 #include <string.h>
